@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Exam07.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exam07.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Exam07Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Exam07">
+      <UniqueIdentifier>{0FEA2C12-1F7C-3A36-96B7-4F7B5B9BE195}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exam07\Exam07.Build.cs">
+      <Filter>Source\Exam07</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Exam07\Exam07.cpp">
+      <Filter>Source\Exam07</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam07\Exam07.h">
+      <Filter>Source\Exam07</Filter>
+    </ClCompile>
+    <Filter Include="Source\Exam07\Private">
+      <UniqueIdentifier>{EB4FEF66-1273-34C1-A3EE-08B38C2B51CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Exam07\Private\MyGameMode.cpp">
+      <Filter>Source\Exam07\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam07\Private\MyPawn.cpp">
+      <Filter>Source\Exam07\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Exam07\Public">
+      <UniqueIdentifier>{2F55C5F5-BD7F-3380-974D-AF58CFC9FD4C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Exam07\Public\MyGameMode.h">
+      <Filter>Source\Exam07\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam07\Public\MyPawn.h">
+      <Filter>Source\Exam07\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

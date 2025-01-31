@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/MainLevel.umap",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Maps/MainLevel.umap",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Blueprints/BP_MyGameMode.uasset",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Blueprints/BP_MyPawn.uasset"
+			]
+		}
+	]
+}
