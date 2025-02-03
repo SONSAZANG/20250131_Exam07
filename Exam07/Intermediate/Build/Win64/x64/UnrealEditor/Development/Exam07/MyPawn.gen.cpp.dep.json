@@ -7,7 +7,9 @@
         "Includes": [
             "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exam07\\definitions.exam07.h",
             "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\source\\exam07\\public\\mypawn.h",
-            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\mypawn.generated.h"
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\mypawn.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

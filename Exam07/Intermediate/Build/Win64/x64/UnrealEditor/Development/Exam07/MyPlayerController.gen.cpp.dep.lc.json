@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\myplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\x64\\exam07editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exam07\\definitions.exam07.h",
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\source\\exam07\\public\\myplayercontroller.h",
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\myplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

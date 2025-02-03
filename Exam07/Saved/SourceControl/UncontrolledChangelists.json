@@ -8,7 +8,11 @@
 				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/MainLevel.umap",
 				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Maps/MainLevel.umap",
 				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Blueprints/BP_MyGameMode.uasset",
-				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Blueprints/BP_MyPawn.uasset"
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Blueprints/BP_MyPawn.uasset",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Blueprints/BP_MyPlayerController.uasset",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Input/IA_Move.uasset",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Input/IA_Look.uasset",
+				"C:/Users/soneunsu/Documents/Exam/20250131_Exam07/Exam07/Content/Input/IMC_Character.uasset"
 			]
 		}
 	]

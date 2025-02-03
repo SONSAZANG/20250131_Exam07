@@ -13,7 +13,9 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemode.generated.h",
-            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\mygamemode.generated.h"
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\mygamemode.generated.h",
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\source\\exam07\\public\\mypawn.h",
+            "c:\\users\\soneunsu\\documents\\exam\\20250131_exam07\\exam07\\intermediate\\build\\win64\\unrealeditor\\inc\\exam07\\uht\\mypawn.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

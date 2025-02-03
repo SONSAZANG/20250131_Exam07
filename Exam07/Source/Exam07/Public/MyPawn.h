@@ -4,9 +4,10 @@
 #include "GameFramework/Pawn.h"
 #include "MyPawn.generated.h"
 
-class USphereComponent;
+class UCapsuleComponent;
 class UCameraComponent;
 class USpringArmComponent;
+struct FInputActionValue;
 
 UCLASS()
 class EXAM07_API AMyPawn : public APawn
@@ -18,13 +19,23 @@ public:
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character | Component")
-	USphereComponent* Collision;
+	UCapsuleComponent* Root;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character | Camera")
 	UCameraComponent* CameraComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character | Camera")
 	USpringArmComponent* SpringArmComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Character | Component")
 	USkeletalMeshComponent* SkeletalMeshComp;
-protected:
+
 	virtual void BeginPlay() override;
+	virtual void Tick(float Deltatime) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UFUNCTION()
+	void Move(const FInputActionValue& value);
+	UFUNCTION()
+	void Look(const FInputActionValue& value);
+
+	FVector2D MoveInput;
+	FVector2D LookInput;
 };
