@@ -42,9 +42,15 @@ void AMyPawn::Tick(float Deltatime)
 	SetActorLocation(newLocation, true);
 	MoveInput = FVector2D::Zero();
 
-	FRotator newRotation = FRotator(0.0f, LookInput.X * 50.0f * Deltatime, 0.0f);
+	FRotator newRotation = FRotator(- LookInput.Y * 50.0f * Deltatime, LookInput.X * 50.0f * Deltatime, 0.0f);
 	AddActorLocalRotation(newRotation);
 	LookInput = FVector2D::Zero();
+
+	FVector UpDownVector = FVector(0.0f, 0.0f, UpDownInput.X);
+	if (!UpDownVector.IsNearlyZero()) UpDownVector.Normalize();
+	FVector UpDownLocation = GetActorLocation() + UpDownVector * 100.0f * Deltatime;
+	SetActorLocation(UpDownLocation, true);
+	UpDownInput = FVector2D::Zero();
 }
 
 void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -74,6 +80,16 @@ void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 					&AMyPawn::Look
 				);
 			}
+
+			if (PlayerController->UpDownAction)
+			{
+				EnhancedInput->BindAction(
+					PlayerController->UpDownAction,
+					ETriggerEvent::Triggered,
+					this,
+					&AMyPawn::UpDown
+				);
+			}
 		}
 	}
 
@@ -88,4 +104,9 @@ void AMyPawn::Move(const FInputActionValue& value)
 void AMyPawn::Look(const FInputActionValue& value)
 { 
 	LookInput = value.Get<FVector2D>();
+}
+
+void AMyPawn::UpDown(const FInputActionValue& value)
+{
+	UpDownInput = value.Get<FVector2D>();
 }

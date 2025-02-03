@@ -35,7 +35,10 @@ protected:
 	void Move(const FInputActionValue& value);
 	UFUNCTION()
 	void Look(const FInputActionValue& value);
+	UFUNCTION()
+	void UpDown(const FInputActionValue& value);
 
 	FVector2D MoveInput;
 	FVector2D LookInput;
+	FVector2D UpDownInput;
 };

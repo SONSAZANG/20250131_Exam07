@@ -16,6 +16,7 @@ struct FInputActionValue;
 #define EXAM07_MyPawn_generated_h
 
 #define FID_Users_soneunsu_Documents_Exam_20250131_Exam07_Exam07_Source_Exam07_Public_MyPawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execUpDown); \
 	DECLARE_FUNCTION(execLook); \
 	DECLARE_FUNCTION(execMove);
 
